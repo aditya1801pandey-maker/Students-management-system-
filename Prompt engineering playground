@@ -1,0 +1,129 @@
+🧪 Prompt Engineering Playground
+
+A beginner-friendly Python-based project to experiment with different prompt engineering techniques, generate better prompts, and evaluate AI responses.
+
+📌 About the Project
+
+The Prompt Engineering Playground helps users understand and practice prompt engineering techniques such as Zero-Shot Prompting, Role-Based Prompting, Few-Shot Prompting, and Structured Prompting.
+
+The application allows users to create customized prompts by specifying a task, role, context, target audience, output format, and constraints.
+
+It also provides a checklist to manually evaluate AI-generated responses.
+
+✨ Features
+
+- Generate Zero-Shot prompts
+- Create Role-Based prompts
+- Generate Few-Shot prompt templates
+- Create Structured and Step-by-Step prompts
+- Customize prompts using context and instructions
+- Download generated prompts as text files
+- Evaluate AI responses using a checklist
+- Simple and interactive web interface
+- No API key required for the current version
+
+🛠️ Technologies Used
+
+- Python
+- Streamlit
+- Prompt Engineering Techniques
+- Git and GitHub
+
+📂 Project Structure
+
+prompt-engineering-playground/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── sample_prompts.md
+├── LICENSE
+└── .gitignore
+
+⚙️ Installation and Setup
+
+Step 1: Clone the Repository
+
+git clone https://github.com/YOUR-USERNAME/prompt-engineering-playground.git
+
+Replace "YOUR-USERNAME" with your GitHub username.
+
+Step 2: Open the Project Folder
+
+cd prompt-engineering-playground
+
+Step 3: Install Dependencies
+
+pip install -r requirements.txt
+
+Step 4: Run the Application
+
+streamlit run app.py
+
+The application will open in your web browser.
+
+🧠 Prompt Engineering Techniques
+
+1. Zero-Shot Prompting
+
+Provides instructions to an AI model without giving a specific example.
+
+2. Role-Based Prompting
+
+Assigns a role to the AI, such as teacher, programmer, or career advisor.
+
+3. Few-Shot Prompting
+
+Provides an example to guide the model toward the desired response style.
+
+4. Structured Prompting
+
+Organizes instructions and asks for a clear, structured response.
+
+🚀 How to Use
+
+1. Open the application.
+2. Enter your task or question.
+3. Specify the AI role and target audience.
+4. Add context and constraints if needed.
+5. Select the required output format.
+6. Compare the generated prompt variations.
+7. Download a prompt and test it in an AI model.
+8. Paste the model's response into the evaluation section.
+9. Use the checklist to review the response.
+
+🎯 Project Objectives
+
+- Understand practical prompt engineering techniques.
+- Learn how prompt structure affects AI responses.
+- Practice writing clear and effective instructions.
+- Develop a simple Python web application.
+- Learn basic project documentation and version control.
+
+🔮 Future Improvements
+
+- Integrate an AI API to generate actual responses.
+- Compare AI outputs side by side.
+- Save prompt experiments to CSV.
+- Add prompt history and version tracking.
+- Introduce automated evaluation tests.
+
+📚 Learning Outcomes
+
+This project demonstrates practical knowledge of prompt construction, Python functions, user input handling, Streamlit UI development, response evaluation, and GitHub documentation.
+
+⚠️ Limitations
+
+- The current version generates prompts but does not call an AI model.
+- Response evaluation is based on a manual checklist.
+- The checklist score does not guarantee factual accuracy.
+
+👨‍💻 Author
+
+Aditya Pandey
+
+Computer Science Engineering Student
+
+📄 License
+
+This project is licensed under the MIT License.
